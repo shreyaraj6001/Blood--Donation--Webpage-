@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #31af0b;
+}
+
+nav {
+    background: #d60000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #7cf090;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: rgb(236, 214, 12);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: url('https://t4.ftcdn.net/jpg/15/15/10/81/360_F_1515108123_4NLidEMe17dzrybxeHVeqg97ufdRPf3I.jpg');
+    background-size:#b00000;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 80, 155);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    background: url('https://cdn.vectorstock.com/i/1000v/99/75/blood-donation-symbol-with-hand-and-bag-vector-43629975.jpg');
+    background-size:#c9c1c1;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.btn {
+    background: #e60000;
+    padding: 10px 20px;
+    color: rgb(9, 45, 145);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #b00000;
+}
+
+footer {
+    background: #222;
+    color: #cf08bf;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #e64311;
+}
+
+form button {
+    width: 100%;
+}
+
